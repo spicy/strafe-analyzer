@@ -1,5 +1,6 @@
 # StrafeAnalyzer Version 0.9
-A tool that analyzes player inputs and tells the player how to improve player movement through statistics, realtime graphs, etc! :) 
+This is a practice tool that promotes legit movement by telling the player how to improve.
+The tool analyzes player inputs and tells the player how to improve through statistics, realtime graphs, etc. 
 
 This injects into the game. VAC bans are possible when the player does not include -insecure and -untrusted into their launch options. 
 Obviously all accountability is assumed by the player when they choose to inject.
