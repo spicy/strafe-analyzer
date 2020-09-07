@@ -6,9 +6,6 @@ The Strafe Analyzer is an idea that I have had for some time, where a competitiv
 
 Obviously all accountability is assumed by the player when they choose to inject, however this application does
 
-Currently, it is only usable on my servers on CSGO. But once CSS integration is finished, you will be able to use this on many other servers.
-
-
 You can request to make a beta account through a google forms link @ https://docs.google.com/forms/d/e/1FAIpQLSfZvBdjR4gZqw90hwvtgY_6iKO-iXUHs1068soIey2Lli8Mdg/viewform?usp=sf_link
 
 Heres a youtube video demonstrating a few features (ver 0.90 == https://www.youtube.com/watch?v=XSQNXGm-n3I)
