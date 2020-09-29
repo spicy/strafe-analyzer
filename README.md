@@ -25,7 +25,7 @@ ________________
 
 -**Mouse/Key direction indicator** : Graphs mouse/key direction to visualize key imperfections.
 
--**Show Velocity Vector** : Shows the players true direction of travel, and visualizes the Dead Zones in your strafe for all styles
+-**Deadzone Visualizer** : Shows the players true direction of travel, and visualizes the Dead Zones in your strafe for all styles
 
 -**Strafe Range** : Finds the total strafe range (width of your strafe before changing directions *assuming you are moving it at the correct speed*) in order to learn how to do a specific # of strafes per jump.  
 
@@ -34,6 +34,8 @@ ________________
 -**StrafeDelta** : Shows how long it takes for your player to get your first 80% gain tick.
 
 -**ShowKeys** : Shows current key states.
+
+-**Velocity Graph** : Graphs your players velocity.
 
 -**Vector Visualizer** : Draws the players movement vectors. Viewangle, Velocity direction, Acceleration direction, Deadzones (optional).
 
