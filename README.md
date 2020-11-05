@@ -4,7 +4,6 @@ The tool analyzes player inputs and tells the player how to improve through stat
 
 The Strafe Analyzer allows competitive movement players get precise data on their movement. The Analyzer is not a cheat. It **does not** manipulate **any** data despite being injected. 
 
-https://www.patreon.com/spicycurrey
 //--------------------------------FREE------------------------------------
 
 • Access to essentially all features
@@ -40,6 +39,8 @@ https://www.patreon.com/spicycurrey
 • You name it brudda (something reasonable)
 
 //------------------------------------------------------------------------------\
+
+> https://www.patreon.com/spicycurrey
 
 ![Analyzer 1.1](https://github.com/spicy/StrafeAnalyzer/blob/master/loader.png?raw=true)
 
