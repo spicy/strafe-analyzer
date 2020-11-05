@@ -38,7 +38,9 @@ The Strafe Analyzer allows competitive movement players get precise data on thei
 
 • You name it brudda (something reasonable)
 
-//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------\
+
+![Analyzer 1.1](https://github.com/spicy/StrafeAnalyzer/blob/master/loader.png?raw=true)
 
 Currently I am only allowing its use on my servers (which are -insecure, meaning VAC is not required to be running on your client). The Analyzer will not inject to your game if it detects that “-insecure” is not in your launch options. It does this with ReadProcessMemory, which *can* be detected (but it is better than injecting while running in secure). VAC bans are possible when the player does not include -insecure and -untrusted into their launch options. 
 
