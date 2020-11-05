@@ -18,7 +18,7 @@ The Strafe Analyzer allows competitive movement players get precise data on thei
 
 • Discord rank (Supporter)
 
-//----------------------------------10$-------------------------------------
+//----------------------------------10+$-------------------------------------
 
 • Everything noted before...
 
@@ -27,8 +27,6 @@ The Strafe Analyzer allows competitive movement players get precise data on thei
 • Directly request features or changes
 
 • Access to main function logic (code)
-
-//----------------------------------15$+------------------------------------
 
 • Everything noted before...
 
