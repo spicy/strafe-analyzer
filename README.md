@@ -4,6 +4,9 @@ The tool analyzes player inputs and tells the player how to improve through stat
 
 The Strafe Analyzer allows competitive movement players get precise data on their movement. The Analyzer is not a cheat. It **does not** manipulate **any** data despite being injected. 
 
+If you are a supporter of mine on my patreon, fill out this form so I can get you your perks and extra features with an account. @ https://docs.google.com/forms/d/1QUcfo90Yn2CAQp68HmyEr_cX_Fi-id7dwxKzWHjB5nw
+If you arent interested in being a supporter, you can use the free version by simply ignoring the login, and press enable.
+
 //--------------------------------FREE------------------------------------
 
 • Access to essentially all features
@@ -45,8 +48,6 @@ The Strafe Analyzer allows competitive movement players get precise data on thei
 Currently I am only allowing its use on my servers (which are -insecure, meaning VAC is not required to be running on your client). The Analyzer will not inject to your game if it detects that “-insecure” is not in your launch options. It does this with ReadProcessMemory, which *can* be detected (but it is better than injecting while running in secure). VAC bans are possible when the player does not include -insecure and -untrusted into their launch options. 
 
 > Obviously all accountability is assumed by the player when they choose to inject
-
-You can request to make a beta account through a google forms link @ https://docs.google.com/forms/d/e/1FAIpQLSfZvBdjR4gZqw90hwvtgY_6iKO-iXUHs1068soIey2Lli8Mdg/viewform?usp=sf_link
 
 Heres a youtube video demonstrating a few features (ver 0.90 == https://www.youtube.com/watch?v=XSQNXGm-n3I)
 
