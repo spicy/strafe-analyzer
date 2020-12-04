@@ -1,89 +1,72 @@
-# ***StrafeAnalyzer Version 1.1***
-This is a practice tool that promotes legit movement by telling the player how to improve.
-The tool analyzes player inputs and tells the player how to improve through statistics, realtime graphs, etc. 
+# Analyzer
+[![CS:GO + CS:Source](https://img.shields.io/badge/game-CS:GO%20+%20CS:Source-yellow.svg?style=plastic)](https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/) 
+[![Windows](https://img.shields.io/badge/platform-Windows-0078d7.svg?style=plastic)](https://en.wikipedia.org/wiki/Microsoft_Windows) 
+[![issues](https://img.shields.io/badge/arch-x86-red.svg?style=plastic)](https://en.wikipedia.org/wiki/X86)
+[![C++](https://img.shields.io/badge/language-C%2B%2B-%23f34b7d.svg?style=plastic)](https://en.wikipedia.org/wiki/C%2B%2B) 
+[![x86](https://img.shields.io/badge/arch-x86-red.svg?style=plastic)](https://en.wikipedia.org/wiki/X86)
+[![PayPal](https://img.shields.io/badge/donate-PayPal-104098.svg?style=plastic&logo=PayPal)](https://paypal.me/spicycurrey)
+[![Patreon](https://img.shields.io/badge/support%20me-Patreon-104098.svg?style=plastic&logo=Patreon)](https://www.patreon.com/spicycurrey)
 
-The Strafe Analyzer allows competitive movement players get precise data on their movement. The Analyzer is not a cheat. It **does not** manipulate **any** data despite being injected. 
+Free software for **CS:GO and CS:S**. Designed as an internal cheat - [Dynamic-link library](https://en.wikipedia.org/wiki/Dynamic-link_library) (DLL) which is loaded into either game process.
 
-If you are a supporter of mine on my patreon, fill out this form so I can get you your perks and extra features with an account. @ https://docs.google.com/forms/d/1QUcfo90Yn2CAQp68HmyEr_cX_Fi-id7dwxKzWHjB5nw
-If you arent interested in being a supporter, you can use the free version by simply ignoring the login, and press enable.
+This is a practice tool that promotes legit movement by telling the user how to improve. The tool analyzes player inputs and shows how to improve with various methods, such as statistics, and realtime graphs / comparisons.
 
-//--------------------------------FREE------------------------------------
+The Strafe Analyzer allows competitive players get precise data on how to improve their movement. The Analyzer is not a cheat by means of its features. It does not manipulate any inputs or gamedata despite being injected. In fact, I am experimenting with my own ClientSide anticheat within the Strafe Analyzer.
 
-• Access to essentially all features
+Because the Analyzer is a practice tool, and is not globally recognized as permissable, I have limited its use (online) to -insecure servers **ONLY** on CS:S, and to my servers **ONLY** on CS:GO. Otherwise, you are able to use it on any LAN server with the
+command 'sv_lan 1'.
 
-• Only one choice of a build
+Benefits of becoming a Patreon Supporter can be found here [Patreon](https://www.patreon.com/posts/strafe-analyzer-43354531)
 
-//----------------------------------5$--------------------------------------
+## Features
+*   **Strafe Trainer** - displays a realtime graph on the players screen of the clients delta yaw, as well as the perfect yaw. (shows how fast to move your mouse).
+*   **Sync Trainer** - displays a history of previous keyswitches. (shows if you pressed your keys late or early compared to your mouse direction).
+*   **Velocity Graph** - displays a graph of the players velocity. (Also able to compare your velocity to any recorded dataset... *Realtime comparisons with replay bots ( ͡° ͜ʖ ͡°)*).
+*   **Record** - records ingame movement (Viewangles, keypresses, etc..) that can be analyzed later (*helpful for record analysis, visualizing cheaters inputs for bans, etc*).
+*   **Sensitivity recommendation** - calculates how much the player should increase or decrease their sensitivity in order to bring their strafe speed closer to the correct value (on avg).
+*   **Deadzone Visualizer** - draws an arrow towards the players true velocity direction (for movement styles), and visualizes Deadzones (the angles in which a delta yaw results in 0 speedgain).
+*   **Mouse/Key direction indicator** - graphs mouse/key direction to visualize key imperfections.
+*   **Strafe Range** - finds the total range necessary in order to learn how to do a specific # of strafes per jump. (Finds the total angle of your strafe *before* changing directions *assuming you are moving your mouse at the perfect speed*).
+*   **TAS Jump Prediction** - shows the players furthest uncrouched landing position (1tick strafer distance).
+*   **Show Movement Vectors** - draws the players movement vectors as unit vectors on the screen. (Viewangle, Velocity direction, Acceleration direction, Deadzones).
+*   **Strafe Delta** - times how many ticks it takes to reach at least 80% of perfangle after changing directions.
+*   **Show Keys** - displays current movement key states, as well as mouse direction.
+*   **Fps_Max check** - tells you when your fps_max is set to a value that decreases speedgain.
+*   **+ Other misc statistics :)**
 
-• Access to beta features
+<details>
 
-• Switch between the most recent dev build, or stable build
+*   **+ changeable UI positions for most features** 
 
-• Discord rank (Supporter)
+</details>
 
-//----------------------------------10+$-------------------------------------
+### Download
 
-• Everything noted before...
+Download the latest release of my loader to have access to the analyzer [Latest Release](https://github.com/spicy/StrafeAnalyzer/releases/latest).
 
-• VIP in all spicehops servers
+### Using the loader
 
-• Directly request features or changes
+You might notice there is a username and password. A login is not necessary for the free version, and you can bypass these by pressing enable. If you would like to be able to choose between the most recent stable and dev build, including
+other benefits, you can visit my patreon page above to learn more about supporting the project.
 
-• Access to main function logic (code)
+## FAQ
+### How do I open menu?
+Press <kbd>INSERT</kbd> while in either game.
 
-• Everything noted before...
+### How do I get into -insecure?
+Open CS:GO/CS:S Properties in Steam. Click "Set Launch Options" and paste *-insecure* inside. VAC will not be loaded once your game starts.
 
-• VIP+ in all spicehops servers, and on twitch
+### What hooking method does the Analyzer use?
+The current hooking method is MinHook (trampoline).
 
-• Perms for fun events in spicehops servers
-
-• You name it brudda (something reasonable)
-
-//------------------------------------------------------------------------------\
-
-> https://www.patreon.com/spicycurrey
-
+### Screenshot of the Analyzer's loader (1.1) as of (12/3/2020)
 ![Analyzer 1.1](https://github.com/spicy/StrafeAnalyzer/blob/master/loader.png?raw=true)
 
-Currently I am only allowing its use on my servers (which are -insecure, meaning VAC is not required to be running on your client). The Analyzer will not inject to your game if it detects that “-insecure” is not in your launch options. It does this with ReadProcessMemory, which *can* be detected (but it is better than injecting while running in secure). VAC bans are possible when the player does not include -insecure and -untrusted into their launch options. 
+## Acknowledgments
 
-> Obviously all accountability is assumed by the player when they choose to inject
+*   [rumour](https://github.com/rumoura) For helping setup the base in its early stages.
 
-Heres a youtube video demonstrating a few features (ver 0.90 == https://www.youtube.com/watch?v=XSQNXGm-n3I)
+## License
+> Copyright (c) 2020-2022 Daniel Currey
 
-NOTE!!
-Always use the correct fps_max values when using this tool. You will see inaccurate data on graphs. To fix this, you want to cap your fps to a multiple of the tickrate in order to get accurate data
-
-________________
-
-***Features***
-
--**Strafe Trainer** : Graphs Mouse Data vs Perfect Mouse Data (shows how fast to move your mouse)
-
--**Sync Trainer** : Lists all strafe sync accuracy KEYS late or KEYS early
-
--**Mouse/Key direction indicator** : Graphs mouse/key direction to visualize key imperfections.
-
--**Deadzone Visualizer** : Shows the players true direction of travel, and visualizes the Dead Zones in your strafe for all styles
-
--**Strafe Range** : Finds the total strafe range (width of your strafe before changing directions *assuming you are moving it at the correct speed*) in order to learn how to do a specific # of strafes per jump.  
-
--**TAS Jump Prediction** : Shows the players furthest uncrouched landing position (1tick strafer distance)
-
--**StrafeDelta** : Shows how long it takes for your player to get your first 80% gain tick.
-
--**ShowKeys** : Shows current key states.
-
--**Velocity Graph** : Graphs your players velocity.
-
--**Vector Visualizer** : Draws the players movement vectors. Viewangle, Velocity direction, Acceleration direction, Deadzones (optional).
-
--**Fps_Max check** : tells you when your fps_max is set to a bad value.
-
--**Full Analysis** : Players can record themselves play, and run a full analysis on a large dataset. This creates a list of stats and creates PNG Graphs of their data. **In progress**
-
--**Sensitivity recommendation** : Calculates how much the player should increase or decrease their sensitivity in order to bring their strafe speed to the correct value (on avg).
-
--**Record** : Spectate a replay bot (or record yourself while you are playing) and press record once the bot spawns on the map.  Record until the end of the run, and the player can use the bots replay data in other functions. Such as the Client Side Bot Path function (inprogress), or to run Bot Data parallel to the players data (such as to compare velocity at any given time in a run).
-
--**Anti Cheat** : I will not go into detail about what the Strafe Analyzer does to deter and detect cheats, but because the analyzer is injected- it would be foolish to not also include detections for unfair advantages. **In progress**
+This project is licensed under the [MIT License](https://opensource.org/licenses/mit-license.php) - see the [LICENSE](https://github.com/spicy/StrafeAnalyzer/LICENSE) file for details.
