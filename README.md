@@ -16,7 +16,7 @@ The Strafe Analyzer allows competitive players get precise data on how to improv
 Because the Analyzer is a practice tool, and is not globally recognized as permissable, I have limited its use (online) to -insecure servers **ONLY** on CS:S, and to my servers **ONLY** on CS:GO. Otherwise, you are able to use it on any LAN server with the
 command 'sv_lan 1'.
 
-Benefits of becoming a Patreon Supporter can be found here [Patreon](https://www.patreon.com/posts/strafe-analyzer-43354531)
+Benefits of becoming a Patreon Supporter can be found [here](https://www.patreon.com/posts/strafe-analyzer-43354531)
 
 ## Features
 *   **Strafe Trainer** - displays a realtime graph on the players screen of the clients delta yaw, as well as the perfect yaw. (shows how fast to move your mouse).
@@ -42,7 +42,7 @@ Benefits of becoming a Patreon Supporter can be found here [Patreon](https://www
 
 ### Download
 
-Download the latest release of my loader to have access to the analyzer [Latest Release](https://github.com/spicy/StrafeAnalyzer/releases/latest).
+Download the [latest release](https://github.com/spicy/StrafeAnalyzer/releases/latest) of my loader to have access to the analyzer.
 
 ### Using the loader
 
@@ -64,7 +64,7 @@ The current hooking method is MinHook (trampoline).
 
 ## Acknowledgments
 
-*   [rumour](https://github.com/rumoura) For helping setup the base in its early stages.
+*   [rumour](https://github.com/rumoura) for helping setup the base in its early stages.
 
 ## License
 > Copyright (c) 2020-2022 Daniel Currey
