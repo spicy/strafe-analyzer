@@ -13,8 +13,7 @@ This is a practice tool that promotes legit movement by telling the user how to 
 
 The Strafe Analyzer allows competitive players get precise data on how to improve their movement. The Analyzer is not a cheat by means of its features. It does not manipulate any inputs or gamedata despite being injected. In fact, I am experimenting with my own ClientSide anticheat within the Strafe Analyzer.
 
-Because the Analyzer is a practice tool, and is not globally recognized as permissable, I have limited its use (online) to -insecure servers **ONLY** on CS:S, and to my servers **ONLY** on CS:GO. Otherwise, you are able to use it on any LAN server with the
-command 'sv_lan 1'.
+Because the Analyzer is a practice tool, and is not globally recognized as permissable, I have limited its use to specific -insecure servers **ONLY**. Otherwise, you are able to use it on any LAN server with the command 'sv_lan 1'.
 
 Benefits of becoming a Patreon Supporter can be found [here](https://www.patreon.com/posts/strafe-analyzer-43354531)
 
