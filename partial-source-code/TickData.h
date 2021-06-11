@@ -21,7 +21,7 @@ struct TickData
 
 	// Misc
 	MouseDir mouseDir = MouseDir::NONE;
-    MouseDir strafeDir = MouseDir::NONE;
+    	MouseDir strafeDir = MouseDir::NONE;
 	KeyDir keyDir = KeyDir::NONE;
 
 	SyncType syncState = SyncType::NOT_SYNCED;
