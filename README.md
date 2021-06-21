@@ -11,7 +11,7 @@ Free software for **CS:GO and CS:S**. Designed as an internal cheat - [Dynamic-l
 
 This is a practice tool that promotes legit movement by telling the user how to improve. The tool analyzes player inputs and shows how to improve with various methods, such as statistics, and realtime graphs / comparisons.
 
-The Strafe Analyzer allows competitive players get precise data on how to improve their movement. The Analyzer is not a cheat by means of its features. It does not manipulate any inputs or gamedata despite being injected. In fact, I am experimenting with my own ClientSide anticheat within the Strafe Analyzer.
+The Strafe Analyzer allows competitive players get precise data on how to improve their movement. The Analyzer is not a cheat by means of its features. It does not manipulate any inputs despite being injected.
 
 Because the Analyzer is a practice tool, and is not globally recognized as permissable, I have limited its use to specific -insecure servers **ONLY**. Otherwise, you are able to use it on any LAN server with the command 'sv_lan 1'.
 
@@ -20,17 +20,14 @@ Benefits of becoming a Patreon Supporter can be found [here](https://www.patreon
 ## Features
 *   **Strafe Trainer** - displays a realtime graph on the players screen of the clients delta yaw, as well as the perfect yaw. (shows how fast to move your mouse).
 *   **Sync Trainer** - displays a history of previous keyswitches. (shows if you pressed your keys late or early compared to your mouse direction).
+*   **RouteTool** - draws recorded movement routes on the players screen.
 *   **Velocity Graph** - displays a graph of the players velocity. (Also able to compare your velocity to any recorded dataset... *Realtime comparisons with replay bots ( ͡° ͜ʖ ͡°)*).
-*   **Record** - records ingame movement (Viewangles, keypresses, etc..) that can be analyzed later (*helpful for record analysis, visualizing cheaters inputs for bans, etc*).
 *   **Sensitivity recommendation** - calculates how much the player should increase or decrease their sensitivity in order to bring their strafe speed closer to the correct value (on avg).
 *   **Deadzone Visualizer** - draws an arrow towards the players true velocity direction (for movement styles), and visualizes Deadzones (the angles in which a delta yaw results in 0 speedgain).
 *   **Mouse/Key direction indicator** - graphs mouse/key direction to visualize key imperfections.
 *   **Strafe Range** - finds the total range necessary in order to learn how to do a specific # of strafes per jump. (Finds the total angle of your strafe *before* changing directions *assuming you are moving your mouse at the perfect speed*).
-*   **TAS Jump Prediction** - shows the players furthest uncrouched landing position (1tick strafer distance).
 *   **Show Movement Vectors** - draws the players movement vectors as unit vectors on the screen. (Viewangle, Velocity direction, Acceleration direction, Deadzones).
-*   **Strafe Delta** - times how many ticks it takes to reach at least 80% of perfangle after changing directions.
 *   **Show Keys** - displays current movement key states, as well as mouse direction.
-*   **Fps_Max check** - tells you when your fps_max is set to a value that decreases speedgain.
 *   **+ Other misc statistics :)**
 
 <details>
