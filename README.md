@@ -17,6 +17,9 @@ Because the Analyzer is a practice tool, and is not globally recognized as permi
 
 Benefits of becoming a Patreon Supporter can be found [here](https://www.patreon.com/posts/strafe-analyzer-43354531)
 
+### Screenshot of the Analyzer's loader (1.2) as of (6/11/2021)
+![Analyzer 1.2](https://github.com/spicy/StrafeAnalyzer/blob/master/loader.png?raw=true)
+
 ## Features
 *   **Strafe Trainer** - displays a realtime graph on the players screen of the clients delta yaw, as well as the perfect yaw. (shows how fast to move your mouse).
 *   **Sync Trainer** - displays a history of previous keyswitches. (shows if you pressed your keys late or early compared to your mouse direction).
@@ -54,9 +57,6 @@ Open CS:GO/CS:S Properties in Steam. Click "Set Launch Options" and paste *-inse
 
 ### What hooking method does the Analyzer use?
 The current hooking method is MinHook (trampoline).
-
-### Screenshot of the Analyzer's loader (1.1) as of (12/3/2020)
-![Analyzer 1.1](https://github.com/spicy/StrafeAnalyzer/blob/master/loader.png?raw=true)
 
 ## Acknowledgments
 
