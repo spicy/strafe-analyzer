@@ -13,9 +13,7 @@ This is a practice tool that promotes legit movement by telling the user how to 
 
 The Strafe Analyzer allows competitive players get precise data on how to improve their movement. The Analyzer is not a cheat by means of its features. It does not manipulate any inputs despite being injected.
 
-Because the Analyzer is a practice tool, and is not globally recognized as permissable, I have limited its use to specific -insecure servers **ONLY**. Otherwise, you are able to use it on any LAN server with the command 'sv_lan 1'.
-
-Benefits of becoming a Patreon Supporter can be found [here](https://www.patreon.com/posts/strafe-analyzer-43354531)
+Because the Analyzer is a practice tool, I have limited its use to specific -insecure servers **ONLY**. Otherwise, you are able to use it on any LAN server with the command 'sv_lan 1'.
 
 ### Screenshot of the Analyzer's loader (1.2) as of (6/11/2021)
 ![Analyzer 1.2](https://github.com/spicy/StrafeAnalyzer/blob/master/loader.png?raw=true)
@@ -42,11 +40,6 @@ Benefits of becoming a Patreon Supporter can be found [here](https://www.patreon
 ### Download
 
 Download the [latest release](https://github.com/spicy/StrafeAnalyzer/releases/latest) of my loader to have access to the analyzer.
-
-### Using the loader
-
-You might notice there is a username and password. A login is not necessary for the free version, and you can bypass these by pressing enable. If you would like to be able to choose between the most recent stable and dev build, including
-other benefits, you can visit my patreon page above to learn more about supporting the project.
 
 ## FAQ
 ### How do I open menu?
