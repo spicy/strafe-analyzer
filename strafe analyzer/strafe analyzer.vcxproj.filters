@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Minhook\buffer.h">
+      <Filter>sdk\utilities\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\minhook.h">
+      <Filter>sdk\utilities\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\trampoline.h">
+      <Filter>sdk\utilities\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\hde32.h">
+      <Filter>sdk\utilities\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\hde64.h">
+      <Filter>sdk\utilities\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\pstdint.h">
+      <Filter>sdk\utilities\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\table32.h">
+      <Filter>sdk\utilities\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\hde\table64.h">
+      <Filter>sdk\utilities\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\IBaseClientDLL.h">
+      <Filter>sdk\interfaces\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\IClientEntityList.h">
+      <Filter>sdk\interfaces\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\IConVar.h">
+      <Filter>sdk\interfaces\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\IInputSystem.h">
+      <Filter>sdk\interfaces\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\IGameUI.h" />
+    <ClInclude Include="Interfaces\ISurface.h">
+      <Filter>sdk\interfaces\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\IVDebugOverlay.h">
+      <Filter>sdk\interfaces\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\IVEngineClient.h">
+      <Filter>sdk\interfaces\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\CUserCmd.h">
+      <Filter>sdk\interfaces\classes\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\CGlobalVars.h">
+      <Filter>sdk\interfaces\classes\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\IPanel.h">
+      <Filter>sdk\interfaces\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Hooks.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Anticheat\AntiCheat.h" />
+    <ClInclude Include="math\VMatrix.h" />
+    <ClInclude Include="Math\vector3d.h">
+      <Filter>sdk\utilities\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\QAngle.h" />
+    <ClInclude Include="Indices\Indices.h">
+      <Filter>sdk\indices</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Interfaces.h">
+      <Filter>sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h" />
+    <ClInclude Include="SDK+\Utils.hpp" />
+    <ClInclude Include="SDK+\SDK.h" />
+    <ClInclude Include="SDK+\Netvars.h">
+      <Filter>sdk\utilities\netvars</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK+\Drawing.h">
+      <Filter>sdk\utilities\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK+\Console.h">
+      <Filter>sdk\utilities\console</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK+\Entity.h">
+      <Filter>sdk\interfaces\classes\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK+\Color.h">
+      <Filter>sdk\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK+\Fnv1.h">
+      <Filter>sdk\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Analyzer\TrainerSound.h" />
+    <ClInclude Include="Math\QAngle.hpp" />
+    <ClInclude Include="Math\Vector2D.hpp" />
+    <ClInclude Include="Math\Vector4D.hpp" />
+    <ClInclude Include="Math\VMatrix.hpp" />
+    <ClInclude Include="zgui\Menu.h" />
+    <ClInclude Include="zgui\zgui.h">
+      <Filter>sdk\menu\zgui</Filter>
+    </ClInclude>
+    <ClInclude Include="zgui\zgui.hh" />
+    <ClInclude Include="Analyzer\Features\StrafeTrainer.h" />
+    <ClInclude Include="Analyzer\AnalyzerEnums.h" />
+    <ClInclude Include="Analyzer\AnalyzerInlines.h" />
+    <ClInclude Include="Analyzer\AnalyzerMath.h" />
+    <ClInclude Include="Analyzer\Features\TickHistory.h" />
+    <ClInclude Include="Analyzer\TickData.h" />
+    <ClInclude Include="Analyzer\History.h" />
+    <ClInclude Include="Analyzer\DrawUtil.h" />
+    <ClInclude Include="Analyzer\Features\SyncTrainer.h" />
+    <ClInclude Include="Analyzer\StrafeData.h" />
+    <ClInclude Include="Analyzer\Features\ScrollGraph.h" />
+    <ClInclude Include="Analyzer\Features\VelocityGraph.h" />
+    <ClInclude Include="Analyzer\Features\RouteTool.h" />
+    <ClInclude Include="Servers.h" />
+    <ClInclude Include="Math\Vector.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Minhook\buffer.c">
+      <Filter>sdk\utilities\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\hook.c">
+      <Filter>sdk\utilities\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\trampoline.c">
+      <Filter>sdk\utilities\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\hde\hde32.c">
+      <Filter>sdk\utilities\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\hde\hde64.c">
+      <Filter>sdk\utilities\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="zgui\zgui.cpp">
+      <Filter>sdk\menu\zgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Hooks.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Anticheat\AntiCheat.cpp" />
+    <ClCompile Include="Math\vector3d.cpp">
+      <Filter>sdk\utilities\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Indices\Indices.cpp">
+      <Filter>sdk\indices</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces\Interfaces.cpp">
+      <Filter>sdk\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="SDK+\Utils.cpp" />
+    <ClCompile Include="SDK+\SDK.cpp" />
+    <ClCompile Include="SDK+\Netvars.cpp">
+      <Filter>sdk\utilities\netvars</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK+\Drawing.cpp">
+      <Filter>sdk\utilities\drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK+\Console.cpp">
+      <Filter>sdk\utilities\console</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector2D.cpp" />
+    <ClCompile Include="Math\Vector4D.cpp" />
+    <ClCompile Include="Math\VMatrix.cpp" />
+    <ClCompile Include="zgui\Menu.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="Analyzer\Features\StrafeTrainer.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="Hooks\CreateMove.cpp" />
+    <ClCompile Include="Hooks\GameUI.cpp" />
+    <ClCompile Include="Hooks\LockCursor.cpp" />
+    <ClCompile Include="Hooks\PaintTraverse.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="Analyzer\Features\TickHistory.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="Analyzer\Features\SyncTrainer.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="Analyzer\Features\ScrollGraph.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="Analyzer\Features\VelocityGraph.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+    <ClCompile Include="Analyzer\Features\RouteTool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{06dca54b-97e2-4f66-b7fe-2bcc386d1b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\utilities">
+      <UniqueIdentifier>{68cbf3eb-7a6d-406c-a9ed-758b597dae23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\interfaces">
+      <UniqueIdentifier>{04fe4306-c26b-4420-98d2-2d36a3b25b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\indices">
+      <UniqueIdentifier>{8003dc0a-90fd-4c14-9523-e35cd5bd58c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\interfaces\classes">
+      <UniqueIdentifier>{dc54f447-ff7a-4bc6-b962-877a1a7fc432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\utilities\minhook">
+      <UniqueIdentifier>{810ac6ff-cb4e-443c-a59f-d6143cc22b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\utilities\minhook\hde">
+      <UniqueIdentifier>{a70c535e-41c5-4ac9-a34d-b95984a101f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\interfaces\classes\misc">
+      <UniqueIdentifier>{322d9e7e-bdc7-43b5-8ad4-256bd20021da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{d7f02db7-ba51-4413-a44e-5fe950152ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks\functions">
+      <UniqueIdentifier>{21fa2bb0-9484-4861-8f99-9f4febf6c590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\utilities\console">
+      <UniqueIdentifier>{54caf68e-0f10-42af-9687-0e443232c605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\utilities\math">
+      <UniqueIdentifier>{745f500e-5ee0-45cd-8b6f-9f4ab945b812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\utilities\drawing">
+      <UniqueIdentifier>{ea171f07-fa23-4035-bda9-639a81ec1723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\utilities\netvars">
+      <UniqueIdentifier>{3c3b61a2-d0f8-4001-98fa-c3fc5bc3c064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\menu">
+      <UniqueIdentifier>{6c69afda-f4ef-49ca-85f9-c7db6b26df4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\menu\zgui">
+      <UniqueIdentifier>{730dd5d9-22f5-494d-9da0-001edef45473}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDK+\packages.config" />
+  </ItemGroup>
+</Project>

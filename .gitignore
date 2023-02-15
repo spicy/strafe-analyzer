@@ -1,0 +1,31 @@
+
+*.db
+*.db-shm
+*.db-wal
+*.ipch
+.vs/strafe analyzer/v16/Browse.VC.opendb
+strafe analyzer/x64/Debug/config.obj
+.vs/strafe analyzer/v16/.suo
+*.obj
+*.log
+*.tlog
+strafe analyzer/x64/Release/strafe analyzer.vcxproj.FileListAbsolute.txt
+*.pdb
+Release/packedforrelease/EncryptDecryptFiles.exe
+*.exp
+*.iobj
+*.ipdb
+*.lib
+*.pyc
+Debug/strafe analyzer.dll
+Debug/strafe analyzer.ilk
+Release/packedforrelease/s.dll
+Release/packedforrelease/s.dll
+Release/packedforrelease/strafe analyzer.dll
+strafe analyzer/Debug/vc142.idb
+*.idb
+*.idb
+strafe analyzer/Debug/vc142.idb
+strafe analyzer/Debug/vc142.idb
+strafe analyzer/Debug/vc142.idb
+strafe analyzer/Debug/vc142.idb

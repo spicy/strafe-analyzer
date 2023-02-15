@@ -1,3 +1,4 @@
+//#include "../analyzer/config.h"
 #include "../Interfaces/Interfaces.h"
 #include "../sdk+/drawing.h"
 #include "../sdk+/fnv1.h"
@@ -5,6 +6,8 @@
 #include "../zgui/zgui.hh"
 #include "../zgui/menu.h"
 #include "hooks.h"
+
+#include "../sdk+/console.h"
 
 #include "../Analyzer/Features/StrafeTrainer.h"
 #include "../Analyzer/Features/SyncTrainer.h"

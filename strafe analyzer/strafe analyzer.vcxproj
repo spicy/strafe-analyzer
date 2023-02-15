@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{A6716047-4DB7-4DD8-9A53-A1497060CD09}</ProjectGuid>
+    <RootNamespace>strafeanalyzer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Analyzer\AnalyzerEnums.h" />
+    <ClInclude Include="Analyzer\AnalyzerInlines.h" />
+    <ClInclude Include="Analyzer\DrawUtil.h" />
+    <ClInclude Include="Analyzer\Features\RouteTool.h" />
+    <ClInclude Include="Analyzer\Features\VelocityGraph.h" />
+    <ClInclude Include="Analyzer\History.h" />
+    <ClInclude Include="Analyzer\Features\ScrollGraph.h" />
+    <ClInclude Include="Analyzer\Features\StrafeTrainer.h" />
+    <ClInclude Include="Analyzer\StrafeData.h" />
+    <ClInclude Include="Analyzer\Features\SyncTrainer.h" />
+    <ClInclude Include="Analyzer\TickData.h" />
+    <ClInclude Include="Analyzer\Features\TickHistory.h" />
+    <ClInclude Include="Interfaces\CGlobalVars.h" />
+    <ClInclude Include="Analyzer\AnalyzerMath.h" />
+    <ClInclude Include="Math\QAngle.hpp" />
+    <ClInclude Include="Math\Vector.hpp" />
+    <ClInclude Include="Math\Vector2D.hpp" />
+    <ClInclude Include="Math\Vector4D.hpp" />
+    <ClInclude Include="Math\VMatrix.hpp" />
+    <ClInclude Include="zgui\Menu.h" />
+    <ClInclude Include="SDK+\Color.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="SDK+\Console.h" />
+    <ClInclude Include="Interfaces\CUserCmd.h" />
+    <ClInclude Include="SDK+\Drawing.h" />
+    <ClInclude Include="SDK+\Entity.h" />
+    <ClInclude Include="SDK+\Fnv1.h" />
+    <ClInclude Include="Hooks\Hooks.h" />
+    <ClInclude Include="Interfaces\IBaseClientDLL.h" />
+    <ClInclude Include="Interfaces\IClientEntityList.h" />
+    <ClInclude Include="Interfaces\IConVar.h" />
+    <ClInclude Include="Interfaces\IGameUI.h" />
+    <ClInclude Include="Interfaces\IInputSystem.h" />
+    <ClInclude Include="Indices\Indices.h" />
+    <ClInclude Include="Interfaces\Interfaces.h" />
+    <ClInclude Include="Interfaces\IPanel.h" />
+    <ClInclude Include="Interfaces\ISurface.h" />
+    <ClInclude Include="Interfaces\IVDebugOverlay.h" />
+    <ClInclude Include="Interfaces\IVEngineClient.h" />
+    <ClInclude Include="Minhook\buffer.h" />
+    <ClInclude Include="Minhook\hde\hde32.h" />
+    <ClInclude Include="Minhook\hde\hde64.h" />
+    <ClInclude Include="Minhook\hde\pstdint.h" />
+    <ClInclude Include="Minhook\hde\table32.h" />
+    <ClInclude Include="Minhook\hde\table64.h" />
+    <ClInclude Include="Minhook\minhook.h" />
+    <ClInclude Include="Minhook\trampoline.h" />
+    <ClInclude Include="SDK+\Netvars.h" />
+    <ClInclude Include="Math\QAngle.h" />
+    <ClInclude Include="SDK+\SDK.h" />
+    <ClInclude Include="Analyzer\TrainerSound.h" />
+    <ClInclude Include="SDK+\Utils.hpp" />
+    <ClInclude Include="Math\vector3d.h" />
+    <ClInclude Include="math\VMatrix.h" />
+    <ClInclude Include="Servers.h" />
+    <ClInclude Include="zgui\zgui.h" />
+    <ClInclude Include="zgui\zgui.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Analyzer\Features\RouteTool.cpp" />
+    <ClCompile Include="Analyzer\Features\ScrollGraph.cpp" />
+    <ClCompile Include="Analyzer\Features\StrafeTrainer.cpp" />
+    <ClCompile Include="Analyzer\Features\SyncTrainer.cpp" />
+    <ClCompile Include="Analyzer\Features\VelocityGraph.cpp" />
+    <ClCompile Include="Analyzer\Features\TickHistory.cpp" />
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="Math\Vector2D.cpp" />
+    <ClCompile Include="Math\Vector4D.cpp" />
+    <ClCompile Include="Math\VMatrix.cpp" />
+    <ClCompile Include="zgui\Menu.cpp" />
+    <ClCompile Include="SDK+\Console.cpp" />
+    <ClCompile Include="Hooks\CreateMove.cpp" />
+    <ClCompile Include="SDK+\Drawing.cpp" />
+    <ClCompile Include="Hooks\GameUI.cpp" />
+    <ClCompile Include="Hooks\Hooks.cpp" />
+    <ClCompile Include="Indices\Indices.cpp" />
+    <ClCompile Include="Interfaces\Interfaces.cpp" />
+    <ClCompile Include="Hooks\LockCursor.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Minhook\buffer.c" />
+    <ClCompile Include="Minhook\hde\hde32.c" />
+    <ClCompile Include="Minhook\hde\hde64.c" />
+    <ClCompile Include="Minhook\hook.c" />
+    <ClCompile Include="Minhook\trampoline.c" />
+    <ClCompile Include="SDK+\Netvars.cpp" />
+    <ClCompile Include="Hooks\PaintTraverse.cpp" />
+    <ClCompile Include="SDK+\SDK.cpp" />
+    <ClCompile Include="SDK+\Utils.cpp" />
+    <ClCompile Include="Math\vector3d.cpp" />
+    <ClCompile Include="zgui\zgui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDK+\packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\nlohmann.json.3.9.1\build\native\nlohmann.json.targets" Condition="Exists('..\packages\nlohmann.json.3.9.1\build\native\nlohmann.json.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\nlohmann.json.3.9.1\build\native\nlohmann.json.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\nlohmann.json.3.9.1\build\native\nlohmann.json.targets'))" />
+  </Target>
+</Project>

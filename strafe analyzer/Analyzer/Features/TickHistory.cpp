@@ -33,9 +33,10 @@ double SmoothValueComparedToVector(T value, T2* vecPtr, T3 S::* targetElemPtr, i
 
         targetSum /= numElemToAvg;
 
-        // if targetSum is 130% of the nonsmoothed value
+        // if targetSum is 130% of the nonsmoothed value, arbitrary
         if ((targetSum / value) * 100 > 130)
         {
+            // arbitraryfcgnyhjdtrrtyhjdrtyhd
             smoothed *= 1.75;
         }
     }

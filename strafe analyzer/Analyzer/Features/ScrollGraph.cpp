@@ -33,7 +33,7 @@ namespace ScrollGraph
             X_OFF = xCenter - ((HISTORY_SIZE * DATA_WIDTH) / 2);
         }
 
-        render::filled_rect(X_OFF - 10, Y_OFF - 10, ((HISTORY_SIZE - 1) * DATA_WIDTH) + 25, 40, { 76, 82, 92, 110});
+        render::filled_rect(X_OFF - 10, Y_OFF - 10, ((HISTORY_SIZE - 1) * DATA_WIDTH) + 25, 40, {76, 82, 92, 110});
 
         color scrollStateColor{ 0, 0, 0, 255 };
         for (int i = HISTORY_SIZE - 1; i >= 0; i--)

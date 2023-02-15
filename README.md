@@ -7,15 +7,11 @@
 [![PayPal](https://img.shields.io/badge/donate-PayPal-104098.svg?style=plastic&logo=PayPal)](https://paypal.me/spicycurrey)
 [![Patreon](https://img.shields.io/badge/support%20me-Patreon-104098.svg?style=plastic&logo=Patreon)](https://www.patreon.com/spicycurrey)
 
-Free software for **CS:GO and CS:S**. Designed as an internal cheat - [Dynamic-link library](https://en.wikipedia.org/wiki/Dynamic-link_library) (DLL) which is loaded into either game process.
+(Deprecated) Free software for **CS:GO and CS:S**. Designed as an internal cheat - [Dynamic-link library](https://en.wikipedia.org/wiki/Dynamic-link_library) (DLL) which is loaded into either game process.
 
 This is a practice tool that promotes legit movement by telling the user how to improve. The tool analyzes player inputs and shows how to improve with various methods, such as statistics, and realtime graphs / comparisons.
 
 The Strafe Analyzer allows competitive players get precise data on how to improve their movement. The Analyzer is not a cheat by means of its features. It does not manipulate any inputs or gamedata despite being injected. In fact, I am experimenting with my own ClientSide anticheat within the Strafe Analyzer.
-
-Because the Analyzer is a practice tool, and is not globally recognized as permissable, I have limited its use to specific -insecure servers **ONLY**. Otherwise, you are able to use it on any LAN server with the command 'sv_lan 1'.
-
-Benefits of becoming a Patreon Supporter can be found [here](https://www.patreon.com/posts/strafe-analyzer-43354531)
 
 ## Features
 *   **Strafe Trainer** - displays a realtime graph on the players screen of the clients delta yaw, as well as the perfect yaw. (shows how fast to move your mouse).
@@ -39,14 +35,15 @@ Benefits of becoming a Patreon Supporter can be found [here](https://www.patreon
 
 </details>
 
+This is an incomplete port from the previous Strafe Analyzer, so some of the features may not be available in the source code. If you notice a missing feature and want to see its old implementation, reach out to me specifically.
+
 ### Download
 
 Download the [latest release](https://github.com/spicy/StrafeAnalyzer/releases/latest) of my loader to have access to the analyzer.
 
-### Using the loader
+### Building the .dll
 
-You might notice there is a username and password. A login is not necessary for the free version, and you can bypass these by pressing enable. If you would like to be able to choose between the most recent stable and dev build, including
-other benefits, you can visit my patreon page above to learn more about supporting the project.
+Build in release/x86 in Visual Studio.
 
 ## FAQ
 ### How do I open menu?
@@ -66,6 +63,6 @@ The current hooking method is MinHook (trampoline).
 *   [rumour](https://github.com/rumoura) for helping setup the base in its early stages.
 
 ## License
-> Copyright (c) 2020-2022 Daniel Currey
+> Copyright (c) 2022-2024 Daniel Currey
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/mit-license.php) - see the [LICENSE](https://github.com/spicy/StrafeAnalyzer/LICENSE) file for details.

@@ -50,14 +50,13 @@ namespace RouteTool
 					}
 				}
 			}
-		}
-
-		// F3 clear run
-		if (GetAsyncKeyState(VK_F3))
-		{
-			History::recordedRun.clear();
-			g_menu.routetool.hasRunRecorded = false;
-			g_menu.routetool.menu.menuText = "Cleared recorded run!";
+			// F3 clear run
+			if (GetAsyncKeyState(VK_F3))
+			{
+				History::recordedRun.clear();
+				g_menu.routetool.hasRunRecorded = false;
+				g_menu.routetool.menu.menuText = "Cleared recorded run!";
+			}
 		}
 
 		// Add the current ticks data to vector History::recordedRun

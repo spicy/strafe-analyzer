@@ -8,4 +8,3 @@ namespace RouteTool
 
 	void Paint();
 }
-
