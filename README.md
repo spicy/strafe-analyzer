@@ -7,11 +7,9 @@
 [![PayPal](https://img.shields.io/badge/donate-PayPal-104098.svg?style=plastic&logo=PayPal)](https://paypal.me/spicycurrey)
 [![Patreon](https://img.shields.io/badge/support%20me-Patreon-104098.svg?style=plastic&logo=Patreon)](https://www.patreon.com/spicycurrey)
 
-(Deprecated) Free software for **CS:GO and CS:S**. Designed as an internal cheat - [Dynamic-link library](https://en.wikipedia.org/wiki/Dynamic-link_library) (DLL) which is loaded into either game process.
+(Deprecated) Free software for **CS:GO and CS:S**. Designed as a [Dynamic-link library](https://en.wikipedia.org/wiki/Dynamic-link_library) (DLL) which is loaded into either game process.
 
-This is a practice tool that promotes legit movement by telling the user how to improve. The tool analyzes player inputs and shows how to improve with various methods, such as statistics, and realtime graphs / comparisons.
-
-The Strafe Analyzer allows competitive players get precise data on how to improve their movement. The Analyzer is not a cheat by means of its features. It does not manipulate any inputs or gamedata despite being injected. In fact, I am experimenting with my own ClientSide anticheat within the Strafe Analyzer.
+This is a practice tool that promotes legit movement by telling the user how to improve. The tool analyzes player inputs and shows how to improve with various methods, such as statistics, and realtime graphs / comparisons. The Strafe Analyzer allows competitive players get precise data on how to improve their movement. 
 
 ## Features
 *   **Strafe Trainer** - displays a realtime graph on the players screen of the clients delta yaw, as well as the perfect yaw. (shows how fast to move your mouse).
